@@ -1,0 +1,138 @@
+@charset "ISO-8859-1";
+
+root { 
+	--navDeg: -webkit-linear-gradient(to right, rgb(34, 32, 31),rgb(3, 22, 30)); 
+	--navDeg2: linear-gradient(to right, rgb(34, 32, 31), rgb(3, 22, 30));
+}
+
+body {
+	padding-bottom: 20px;
+}
+
+.navBar1{
+	display: flex;
+}
+
+
+
+.icon {
+	height: 40px;
+}
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+@media ( min-width : 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+
+.nav-item {
+	padding-left: 20px;
+}
+
+.nav-a-color {
+	color: rgb(240, 152, 38);
+	text-decoration: none;
+	border: 3px 3px transparent;
+	padding: 5px 5px;
+}
+
+dropdown-menu-color {
+	background-color: beige;
+}
+
+.nav-a-color:hover {
+	background-color: rgb(240, 152, 38);
+	color: black;
+	border-radius: 5px;
+}
+
+.nav-a-color:focus {
+	background-color: rgb(240, 152, 38);
+	color: black;
+	border-radius: 5px;
+}
+
+.navbar-style {
+	/*   background: linear-gradient(to right, rgb(34, 32, 31), rgb(3, 22, 30));
+  background: -webkit-linear-gradient(to right, rgb(34, 32, 31), rgb(3, 22, 30));
+ */
+	background: --navDeg;
+	background: --navDeg2;
+}
+
+.navbar-ul {
+	display: flex;
+	list-style: none;
+}
+
+.navbar-ul li {
+	text-decoration: none;
+}
+
+.dropdown-a {
+	color: grey;
+	text-decoration: none;
+	padding-left: 15px;
+}
+
+.separador {
+	display: block;
+  	justify-content: space-between;
+  	max-width: 992px;
+  	margin: 0 auto;
+}
+
+
+
+@media ( min-width : 768px) {
+	.boton {
+		justify-content: space-between;
+		padding-left: 50px;
+	}
+}
+
+.login {
+	margin: 10px 30px 10px 10px;
+	color: #008000;
+	padding: 5px;
+	text-decoration: none;
+	border: 2px solid #008000;
+	border-radius: 3px;
+}
+
+.login:hover {
+	color: rgb(240, 152, 38);
+	border: 2px solid rgb(240, 152, 38);
+	border-radius: 3px;
+}
+
+/* .user-a{
+  margin: 10px;
+  
+  color: #008000;
+  padding: 5px;
+  text-decoration: none;
+  border: 2px solid #008000;
+  border-radius: 3px;
+	
+}
+
+.user-a:hover{
+  color: rgb(240, 152, 38);
+  border: 2px solid rgb(240, 152, 38);
+  border-radius: 3px;
+}
+ */
+.user ul li ul li a {
+	color: grey;
+	text-decoration: none;
+	padding-left: 15px;
+}

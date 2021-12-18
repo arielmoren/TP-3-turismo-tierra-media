@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: white;
+}
+
+
+#floatingInput, #floatingPassword{
+    border: 0 !important;
+    border-bottom: 2px solid rgb(240, 152, 38) !important;
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    color: white !important;
+}
+
+#floatingInput:focus, #floatingPassword:focus{
+    box-shadow: none !important;
+}
+
+body{
+    margin-top: 50px ;
+    text-align: center;
+    background: -webkit-linear-gradient(to right, rgb(34, 32, 31), rgb(3, 22, 30));
+    background: linear-gradient(to right, rgb(3, 22, 30),  rgb(34, 32, 31));
+}
+
+
+.main-form{
+    background: -webkit-linear-gradient(to right, rgb(34, 32, 31), rgb(3, 22, 30));
+    background: linear-gradient(to right, rgb(34, 32, 31), rgb(3, 22, 30));
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 425px;
+    max-width: 600px;
+    padding: 15px 20px 50px 20px;
+    border-radius: 5%;
+    border: 50px;
+
+}
+
+.mb-4{
+    width: 72;
+    height: 57;
+
+}
+
+form div{
+    margin-top: 15px;
+    color: rgb(240, 152, 38);
+}
+
+.btn-style{
+    background-color:	transparent !important;
+    color:  rgb(240, 152, 38);
+    border: 2px solid rgb(240, 152, 38) !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.btn-style:hover{
+    background-color:rgb(240, 152, 38) !important;
+    color: black !important;
+    color:  rgb(240, 152, 38);
+}
+
+.btn-style:focus{
+    box-shadow: none !important;
+}
+
+.form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+    transform: scale(.85) translateY(-1rem) translateX(0.15rem) !important;
+}
+
